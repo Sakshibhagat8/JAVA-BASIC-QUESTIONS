@@ -1,0 +1,40 @@
+//Using if-else Statements
+public class Main{
+    public static void main(String args[])
+    {
+        int a=50,b=90;
+        if(a==b)
+           System.out.println("both are equals");
+        else if(a>b)
+           System.out.println(a +" is greater");
+        else
+           System.out.println(b+" is greater");
+    }
+}
+
+// Using Ternary Operator
+public class Main{
+    public static void main(String args[])
+    {
+        int a=45,b=20,temp;
+        if(a==b)
+          System.out.println("Both are equals\n");
+        else
+         {
+             temp=a>b?a:b;
+             System.out.println(temp+" is largest");
+         }
+    }
+}
+//Using inbuilt max Function
+
+public class Main{
+    public static void main(String args[])
+    {
+        int a=12,b=14;
+        if(a==b)
+          System.out.println("Both are equals");
+        else
+           System.out.println(Math.max(a,b)+" is greater");
+    }
+}
